@@ -19,10 +19,11 @@ def fib(n):
 
 
 def main():
-    random_number = random.randint(1,100)
-    print(random_number)
-
-    print (fib(random_number))
+    for _ in range(10):
+        random_number = random.randint(1,100)
+        print(f"Random number generated: {random_number}")
+        print(f"Fibonacci of {random_number}: {fib(random_number)}")
+        print ("-" * 30)
 
 
 if __name__ == "__main__":
