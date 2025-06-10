@@ -40,5 +40,5 @@ This is the code need to add an image to a README.md file
 ![Alt text](image_url)
 ```
 
-Here is an image
+Here is an image of my current mood
 ![current mood right now](mystery_image.jpg)
